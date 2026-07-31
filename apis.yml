@@ -1,7 +1,25 @@
 aid: nasn-auto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nasn-auto.png
 name: nasn-auto
-description: nasn-auto is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'NASN Automotive Electronics Co., Ltd. is a Shanghai-based automotive chassis
+  electronic-control manufacturer founded in 2016, developing brake-by-wire and steer-by-wire
+  systems for smart and assisted driving. Its products include the NBooster intelligent
+  braking system, brushless electric power steering (EPS) controllers, and motion-control
+  solutions for autonomous vehicles. Backed by Qiming Venture Partners, Matrix Partners China,
+  Hillhouse and CATL, NASN has raised roughly $231M and is a Tier-1 supplier pursuing a Hong Kong
+  listing. Surfaced as a Qiming portfolio company; NASN is an automotive hardware manufacturer with
+  no public developer API surface at nasn-auto.com.'
 url: https://raw.githubusercontent.com/api-evangelist/nasn-auto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- Automotive
+- Automotive Electronics
+- Brake-by-Wire
+- Steer-by-Wire
+- Autonomous Driving
+- Hardware
+- Manufacturing
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nasn-auto-domain-security.yml
 - type: Website
   url: https://nasn-auto.com
